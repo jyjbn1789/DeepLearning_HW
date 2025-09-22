@@ -30,14 +30,13 @@ jobs:
           CI: true
 ```
 
-**2단계: GitHub에 최종 업로드하기**
-
-1.  수정한 `schedule.yml` 파일을 **저장**하세요.
-2.  터미널을 열어 `DeepLearning_HW` 폴더로 이동한 뒤, 아래 명령어들을 실행해서 수정된 내용을 GitHub에 올리면 **모든 것이 끝납니다.**
+3.  **저장 후 GitHub에 업로드**:
+    * 수정한 `schedule.yml` 파일을 **저장**하세요.
+    * 터미널을 열어 `DeepLearning_HW` 폴더로 이동한 뒤, 아래 명령어들을 실행해서 수정된 내용을 GitHub에 올리면 **모든 오류가 해결될 겁니다.**
 
     ```powershell
     git add .
-    git commit -m "Fix: Overwrite workflow with clean syntax"
+    git commit -m "Fix: Clean up workflow file to contain only YAML code"
     git push
     
 
